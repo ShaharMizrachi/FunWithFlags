@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebackgroung">
+
+
+    <ListView
+        android:id="@+id/theList"
+        android:layout_width="match_parent"
+        android:layout_height="459dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="144dp" />
+
+    <TextView
+        android:id="@+id/score_title"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="@string/score_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp" />
+
+
+    <android.widget.Button
+        android:id="@+id/btn_score_to_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="321dp"
+        android:background="@drawable/botton_shape"
+        android:text="@string/tomenu_txt"
+        android:textColor="#090909"
+        android:textStyle="bold" />
+
+</RelativeLayout>
